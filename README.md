@@ -10,6 +10,8 @@ or highlight them.
 The extension is developed for Chrome engine browser, 
 on a Vivaldi browser.
 This extension can be adapted to work on Firefox.
+For now, only the search engines Google, Bing and 
+DuckDuckGo are implemented.
 
 Poop Zapper is designed in a simple and minimalist way, it only does what it 
 is designed for and does nothing else.
