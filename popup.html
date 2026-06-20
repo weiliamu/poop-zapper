@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <div class="container">
+    <h1><img src="icons/icon48.png" alt="poop zapper" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 10px;">Poop Zapper</h1>
+    
+    
+    <label class="toggle-switch square" style="margin-top:12px;">
+    <input type="checkbox" id="switch_activate">
+    <span class="slider"></span>
+    </label> Active
+    
+    <fieldset style="margin-top:12px;">
+    <legend>What to do with poop ?</legend>
+    <form>
+        <input type="radio" id="radio_highlight" name="whattodo">
+        <label for="radio_highlight">Highlight</label><br>
+        <input type="radio" id="radio_transparent" name="whattodo">
+        <label for="radio_transparent">Transparent</label><br>
+        <input type="radio" id="radio_hide" name="whattodo">
+        <label for="radio_hide">Hide</label><br>
+    </form>
+    </fieldset>
+
+    <fieldset style="margin-top:12px;">
+    <legend>Seach engine to apply zapper</legend>
+    <form>
+        <input type="checkbox" id="checkbox_google">
+        <label for="checkbox_google">Google</label><br>
+        <input type="checkbox" id="checkbox_bing">
+        <label for="checkbox_bing">Bing</label><br>
+        <input type="checkbox" id="checkbox_duckduckgo">
+        <label for="checkbox_duckduckgo">DuckDuckGo</label>
+    </form>
+    </fieldset>
+    
+    <form style="margin-top:12px;">
+        <label for="button_poop"></label>
+        <input type="button" value="💩 Add current website to the Poop list" id="button_poop">
+    </form>
+    
+    <form style="margin-top:12px;">
+        <label for="button_settings"></label>
+        <input type="button" value="🗒️ Manage poop list" id="button_settings">
+    </form>
+    
+    
+    
+    <script src="popup.js"></script>
+  
+  
+</body>
+
+</html>
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Poop Zapper - poop list</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; }
+    button { margin: 5px; padding: 8px 16px; }
+    textarea { width: 100%; height: 150px; margin: 10px 0; }
+    .button { background-color: light-grey;}
+    .button:hover { border: 2px solid #ff66ff; background-color: #ffe6ff;}
+
+  </style>
+  
+</head>
+
+<body>
+
+  <h2><img src="icons/icon48.png" alt="poop zapper" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 10px;">Poop Zapper : Manage poop list</h2>
+  <textarea id="dataDisplay" readonly></textarea>
+  <p>See here all the sites in the poop list. You can make changes by exporting the list, editing it, and then importing it. You can also back up your lists to keep a record of them or to share them.</p>
+  <div>
+    <button id="button_export" class="button">⬇️ Export poop list</button>
+    <button id="button_import" class="button">⬆️ Import poop list</button>
+    <button id="button_erase" class="button">🗑️ Erase poop list</button>
+  </div>
+  <input type="file" id="input_file" accept=".json" style="display:none">
+
+  <script src="options.js"></script>
+  
+</body>
+</html>
