@@ -43,3 +43,12 @@ is designed for and does nothing else.
 2. Open your browser and go to the Extension page
 3. Drag and drop the folder containing the code
 4. The Extension should now be installed and ready to use. Check the top right corner to check if you the extension icon
+
+### Screenshots & Demo
+
+<img width="480" height="317" alt="add to poop list" src="https://github.com/user-attachments/assets/9937b71c-6304-4f69-b0b6-4653406ff744" />
+Adding websites to the poop list, they are immediately hidden
+<img width="480" height="327" alt="highlight" src="https://github.com/user-attachments/assets/345e92e8-2a65-4d0e-b971-5ab26470cfd3" />
+Adding a website to the poop list, it's highlighted
+
+
