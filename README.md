@@ -27,7 +27,6 @@ is designed for and does nothing else.
 - choose the search engine to filter
 - manage the poop list (import, export, or delete)
 
-
 ### Compatible browser
 - designed for chrome base browser
 - tested on Vivaldi
@@ -39,4 +38,8 @@ is designed for and does nothing else.
 - DuckDuckGo
 - More can be add (hard coded...)
 
-
+### Installation
+1. Download the files and have it ready inside a folder
+2. Open your browser and go to the Extension page
+3. Drag and drop the folder containing the code
+4. The Extension should now be installed and ready to use. Check the top right corner to check if you the extension icon
